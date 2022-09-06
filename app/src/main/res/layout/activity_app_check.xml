@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="90dp"
+        android:text="앱 만족도 평가"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Check"
+        android:text="현재 사용하고 계신 앱의 만족도는 어떠신가요?"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Check"
+        android:text="만족도 평가 후 제출해주세요!"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/info"
+        android:numStars="5"
+        android:stepSize="0.5"/>
+
+    <TextView
+        android:id="@+id/ratingBarScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="SCORE = "
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/ratingBarScore"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="제출하기"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/CheckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="확인"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/CheckButton"
+        android:text="취소"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

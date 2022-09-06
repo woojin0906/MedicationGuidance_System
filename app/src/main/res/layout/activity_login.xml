@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/login_titlename"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:text="아프텐"
+        android:textAlignment="center"
+        android:textColor="#0AAFE1"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_width="307dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/login_titlename"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:hint="아이디" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="307dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/login_id"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:hint="비밀번호" />
+
+    <CheckBox
+        android:id="@+id/check_autologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="20sp"
+        android:text="자동 로그인" />
+
+    <Button
+        android:id="@+id/login_password_change"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/login_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/check_autologin"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="비밀번호재설정"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/login_loginButton"
+        android:layout_width="305dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/login_password_change"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="로그인"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/login_joinButton"
+        android:layout_width="305dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/login_loginButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="회원가입"
+        android:textSize="24sp" />
+
+
+
+
+</RelativeLayout>

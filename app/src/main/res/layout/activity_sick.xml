@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/headache"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="두통"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/neck"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="25sp"
+        android:layout_toRightOf="@id/headache"
+        android:backgroundTint="#3F51B5"
+        android:onClick="onClick"
+        android:text="인후통"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/stomachache"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/headache"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="onClick"
+        android:text="복통"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/eye"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/neck"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_toRightOf="@id/stomachache"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="눈병"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/toothache"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/stomachache"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="치통"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/ear"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/eye"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_toRightOf="@id/toothache"
+        android:backgroundTint="#3F51B5"
+        android:onClick="onClick"
+        android:text="귀통증"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/joint"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/toothache"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="onClick"
+        android:text="관절염"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/all"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/ear"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_toRightOf="@id/joint"
+        android:backgroundTint="#7688E8"
+        android:onClick="onClick"
+        android:text="ALL"
+        android:textSize="28sp" />
+
+</RelativeLayout>

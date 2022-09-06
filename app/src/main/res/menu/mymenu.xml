@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/previous"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="이전 화면"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="메인 화면"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="로그아웃"
+        app:showAsAction="never" />
+</menu>
