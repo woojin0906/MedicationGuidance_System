@@ -1,4 +1,4 @@
-# MiNiProject
+# MedicationGuidance_System
 인하공업전문대학
 모바일 프로그래밍 - 2학년 1학기
 ___________________________
